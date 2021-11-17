@@ -1,6 +1,5 @@
 .hero {
   background-color: #6e6e6e;
-
 }
 
 .skew {
@@ -16,18 +15,13 @@
   text-align: center;
   transform: skew(0deg, 10deg);
   padding-top: 100px;
-  padding-bottom: 100px;
+  /* padding-bottom: 50px; */
 }
 
 .brand {
   font-weight: lighter;
   font-size: 50px;
-  font-weight:3 00;
-}
-
-.text {
-  font-weight: lighter;
-  font-size: 20px;
+  padding: 100px 0;
 }
 
 .footer {
@@ -54,8 +48,12 @@
   margin-left: 3rem;
   color: #fff;
   max-width: 20rem;
+  line-height: 2.0rem;
+  font-weight: lighter;
+  font-size: 20px;
   
 }
+
 
 @media screen and (max-width: 600px) {
   .bio {

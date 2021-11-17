@@ -1,0 +1,27 @@
+
+.card {
+    padding: 2rem;
+    position: relative;
+}
+.image {
+    border-radius: 1rem;
+}
+
+.image:hover {
+    opacity: 0.4;
+}
+
+.image:hover + .description {
+    display: block;
+}
+
+
+.description {
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 10;
+}
