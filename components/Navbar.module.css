@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 4rem;
+}
+
+.icon {
+    font-size: 3rem;
+    margin-right: 1.5rem;
+}
+
+.links {
+    text-transform: capitalize;
+}
