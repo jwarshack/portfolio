@@ -49,7 +49,7 @@ function Testimonials() {
           <button onClick={next} className="absolute -right-10 top-1/2 text-xl"><BsChevronRight/></button>
           {
             testimonials.map((j, index) => (
-              <div className={slideIndex === index ? "bg-[#ff8e71] h-[300px] p-10 rounded-md lg:w-[500px] text-center" : "hidden" }  key={index}>
+              <div className={slideIndex === index ? "bg-[#ff8e71] h-[300px] p-10 rounded-md lg:w-[500px] text-center overflow-y-scroll" : "hidden" }  key={index}>
                 <p>&quot;{j.content}&quot;</p>
                 <p className="text-yellow-300 font-bold mt-2 ml-2 ">- {j.client}</p>
               </div>
