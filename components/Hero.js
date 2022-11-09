@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div className='flex flex-col-reverse gap-6 lg:gap-0 lg:flex-row justify-center h-screen w-full'>
       <div className='bg-[#fe734e] lg:bg-[#ff8e71] w-full flex items-center justify-center'>
-        <div className='text-center md:text-left flex flex-col'>
+        <div className='text-center md:text-left flex flex-col px-10'>
           <h1 className='uppercase font-bold text-4xl md:text-6xl mb-2'>Jake Warren</h1>
           <p className='uppercase text-yellow-300 font-semibold mb'>{'//' + ' About me'}</p>
           <p className='text-md'>Expert Shopify developer from Newport Beach, California</p>
