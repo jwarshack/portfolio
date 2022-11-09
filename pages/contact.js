@@ -10,7 +10,7 @@ function Contact() {
         <h2 className='uppercase font-bold text-3xl lg:text-6xl mb-4'>Contact Me</h2>
         <p>I&apos;m always open to hearing about new projects and taking on new clients!</p>
         <div className='flex flex-col bg-[#fe734e] p-8 rounded-lg'>
-          <form action="https://formsubmit.co/jwarshack@gmail.com" method='POST' className='flex flex-col text-left gap-4'>
+          <form action="https://formsubmit.co/c0c81ab596c8c17ad3dcfe000a6ab308" method='POST' className='flex flex-col text-left gap-4'>
             <input type="hidden" name="_subject" value="Website contact form"/>
             <div className='flex flex-col'>
               <label>Name</label>
