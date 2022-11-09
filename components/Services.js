@@ -21,7 +21,7 @@ const services = [
 function Services() {
   return (
     <div className='py-40 px-10' data-aos="fade-in">
-      <h2 className='uppercase font-bold text-6xl mb-40 text-center'>Services</h2>
+      <h2 className='uppercase font-bold text-3xl lg:text-6xl mb-40 text-center'>Services</h2>
       <div className='flex justify-center'>
         <div className='flex flex-col lg:flex-row gap-20'>
           {services.map((service, index) => (
