@@ -40,8 +40,8 @@ function Testimonials() {
   };
 
   return (
-    <div className="p-10">
-      <h2 className="uppercase font-bold text-6xl mb-10" data-aos="fade-in">Testimonials</h2>
+    <div className="px-10 py-40 text-center">
+      <h2 className="uppercase font-bold text-3xl lg:text-6xl mb-10" data-aos="fade-in">Testimonials</h2>
 
       <div className="flex" data-aos="fade-in">
         <div className="relative mx-auto w"> 
@@ -49,7 +49,7 @@ function Testimonials() {
           <button onClick={next} className="absolute -right-10 top-1/2 text-xl"><BsChevronRight/></button>
           {
             testimonials.map((j, index) => (
-              <div className={slideIndex === index ? "bg-[#fe734e] h-[300px] p-10 rounded-md w-[500px] text-center" : "hidden" }  key={index}>
+              <div className={slideIndex === index ? "bg-[#ff8e71] h-[300px] p-10 rounded-md lg:w-[500px] text-center" : "hidden" }  key={index}>
                 <p>"{j.content}"</p>
                 <p className="text-yellow-300 font-bold mt-2 ml-2 ">- {j.client}</p>
               </div>

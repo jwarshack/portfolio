@@ -10,7 +10,7 @@ export default function Home() {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000
+      duration: 300
     })
     AOS.refresh()  
   }, [])
@@ -18,10 +18,15 @@ export default function Home() {
 
   return (
    <div className='flex flex-col min-h-screen'>
-    <Head>Jake Warren</Head>
+    <Head>
+      <title>Jake Warren</title>
+    </Head>
+
     <Hero />
+    <div>
     <Services />
     <Testimonials/>
+    </div>
    </div>
   )
 }
