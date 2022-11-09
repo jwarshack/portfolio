@@ -7,11 +7,11 @@ function Hero() {
   return (
     <div className='flex flex-col-reverse gap-6 lg:gap-0 lg:flex-row justify-center h-screen w-full'>
       <div className='bg-[#fe734e] lg:bg-[#ff8e71] w-full flex items-center justify-center'>
-        <div className='text-center md:text-left flex flex-col' data-aos="fade-in">
+        <div className='text-center md:text-left flex flex-col'>
           <h1 className='uppercase font-bold text-4xl md:text-6xl mb-2'>Jake Warren</h1>
           <p className='uppercase text-yellow-300 font-semibold mb'>{'//' + ' About me'}</p>
-          <p className='text-md'>Experienced Shopify developer from Newport Beach, California</p>
-          <p className='text-yellow-300 font-semibold'>I am a full stack Shopify developer specializing in Dawn 2.0</p>
+          <p className='text-md'>Expert Shopify developer from Newport Beach, California</p>
+          <p className='text-yellow-300 font-semibold'>My work includes UX and UI design, front-end development, and a whole lot more.</p>
           <Link href="/contact"><button className='bg-white text-black hover:scale-105 ease-in-out duration-300 font-bold uppercase rounded py-4 px-5 mt-8'>Contact me!</button></Link>
         </div>
       </div>

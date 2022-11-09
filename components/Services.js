@@ -20,7 +20,7 @@ const services = [
 
 function Services() {
   return (
-    <div className='py-10 md:py-40 px-10' data-aos="fade-in">
+    <div className='py-10 md:py-40 px-10'>
       <h2 className='uppercase font-bold text-3xl lg:text-6xl mb-10 md:mb-40 text-center'>Services</h2>
       <div className='flex justify-center'>
         <div className='flex flex-col lg:flex-row gap-20'>

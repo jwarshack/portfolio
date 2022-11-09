@@ -41,9 +41,9 @@ function Testimonials() {
 
   return (
     <div className="px-10 py-40 text-center">
-      <h2 className="uppercase font-bold text-3xl lg:text-6xl mb-10" data-aos="fade-in">Testimonials</h2>
+      <h2 className="uppercase font-bold text-3xl lg:text-6xl mb-10">Testimonials</h2>
 
-      <div className="flex" data-aos="fade-in">
+      <div className="flex">
         <div className="relative mx-auto w"> 
           <button onClick={prev} className="absolute -left-10 top-1/2 text-xl"><BsChevronLeft/></button>
           <button onClick={next} className="absolute -right-10 top-1/2 text-xl"><BsChevronRight/></button>
