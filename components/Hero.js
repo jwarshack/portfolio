@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 function Hero() {
   return (
-    <div className='pt-40 md:pt-0 flex flex-col-reverse gap-6 lg:gap-0 lg:flex-row justify-center h-screen w-full'>
+    <div className='flex flex-col-reverse gap-6 lg:gap-0 lg:flex-row justify-center h-screen w-full'>
       <div className='bg-[#fe734e] lg:bg-[#ff8e71] w-full flex items-center justify-center'>
         <div className='text-center md:text-left flex flex-col' data-aos="fade-in">
           <h1 className='uppercase font-bold text-4xl md:text-6xl mb-2'>Jake Warren</h1>
