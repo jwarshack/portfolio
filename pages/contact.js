@@ -2,7 +2,7 @@
 import Head from "next/head"
 function Contact() {
   return (
-    <div className='flex justify-center items-center pt-28'>
+    <div className='flex justify-center items-center pt-28 px-5'>
       <Head>
         <title>Contact | Jake Warren</title>
       </Head>

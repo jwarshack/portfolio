@@ -37,7 +37,7 @@ function Portfolio() {
   const [activeTab, setActiveTab] = useState(0)
 
   return (
-    <div className='flex flex-col justify-center items-center mt-28'>
+    <div className='flex flex-col justify-center items-center mt-28 px-5'>
       <Head>
         <title>Portfolio | Jake Warren</title>
       </Head>
