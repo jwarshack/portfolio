@@ -43,8 +43,8 @@ function Portfolio() {
       </Head>
       <h2 className="uppercase font-bold text-6xl mb-8">My Work</h2>
       <div className='border-1 grid grid-cols-2 gap-4'>
-        {projects.map((proj, i) => (
-          <a target="_blank" rel="noopener noreferrer"href={proj.url}><Image src={proj.img} height={200} width={200} alt={proj.title} className="cursor-pointer hover:scale-105 ease-in-out duration-300" /></a>
+        {projects.map((proj, index) => (
+          <a key={index} target="_blank" rel="noopener noreferrer"href={proj.url}><Image src={proj.img} height={200} width={200} alt={proj.title} className="cursor-pointer hover:scale-105 ease-in-out duration-300" /></a>
         ))}
 
       </div>

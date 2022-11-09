@@ -25,8 +25,8 @@ function Services() {
       <div className='flex justify-center'>
         <div className='flex flex-col lg:flex-row gap-20'>
           {services.map((service, index) => (
-            <div className='flex flex-col gap-4 items-center'> 
-              <Image src={service.img} height={150} />
+            <div key={index} className='flex flex-col gap-4 items-center'> 
+              <Image src={service.img} height={150} alt={service.title} />
               <p className='font-bold text-center'>{service.title}</p>
             </div>
           ))}

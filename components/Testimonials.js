@@ -12,7 +12,7 @@ function Testimonials() {
       client: "CryptoRings NFT"
     },
     {
-      content: "Working with Jake was an awesome experience. He was very patient with my many requests and modifications. His dev work was superb. I’d highly recommend him for all website and smart contract development.",
+      content: "Working with Jake was an awesome experience. He was very patient with my many requests and modifications. His dev work was superb. I'd highly recommend him for all website and smart contract development.",
       client: "MetaGym"
     },
     {
@@ -50,7 +50,7 @@ function Testimonials() {
           {
             testimonials.map((j, index) => (
               <div className={slideIndex === index ? "bg-[#ff8e71] h-[300px] p-10 rounded-md lg:w-[500px] text-center" : "hidden" }  key={index}>
-                <p>"{j.content}"</p>
+                <p>&quot;{j.content}&quot;</p>
                 <p className="text-yellow-300 font-bold mt-2 ml-2 ">- {j.client}</p>
               </div>
 
