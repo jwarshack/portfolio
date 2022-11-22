@@ -3,7 +3,7 @@ import anallegories from '../public/img/anallegories-thumbnail.png'
 import Image from 'next/image'
 import metagym from '../public/img/metagym-thumbnail.png'
 import terra from '../public/img/terra-thumbnail.png'
-import elixir from '../public/img/elixir-thumbnail.png'
+import nsz from '../public/img/nsz-thumbnail.png'
 import Head from "next/head"
 
 
@@ -16,6 +16,11 @@ function Portfolio() {
       "url": "https://anallegories.com/"
     },
     {
+      "title": "North Shore Zen",
+      "img": nsz,
+      "url": "https://northshorezen.com/"
+    },
+    {
       "title": "Terra Shimmer",
       "img": terra
     },
@@ -23,18 +28,9 @@ function Portfolio() {
       "title": "Metagym",
       "img": metagym,
       "url": "https://www.meta-gym.io/"
-    },
-    {
-      "title": "Elixir Sound Library",
-      "img": elixir,
-      "url": "https://www.meta-gym.io/"
     }
-
-
   ]
 
-
-  const [activeTab, setActiveTab] = useState(0)
 
   return (
     <div className='flex flex-col justify-center items-center mt-28 px-5'>
