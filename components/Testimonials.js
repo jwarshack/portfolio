@@ -8,6 +8,10 @@ function Testimonials() {
       client: "Ethan Zawadzke"
     },
     {
+      content: "Jake did an amazing job. Above and beyond to help me fix some issues with my Shopify site. Not only did he do the required contact perfectly and more than I had expected was possibly—he finished in record time. Thank you Jake!!!",
+      client: "Ramble & Roam"
+    },
+    {
       content: "If we could give Jake 100 stars we would. He is honest, hard-working, professional, kind and truly goes above and beyond what is expected of him. He's extremely resourceful, and if he doesn't know an answer to something, he will figure it out. All around an incredibly nice guy and a pleasure to work with. We hope to have the opportunity to continue working with him in the future. Thanks for everything, Jake!",
       client: "CryptoRings NFT"
     },
